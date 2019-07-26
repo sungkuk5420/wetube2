@@ -1,0 +1,7 @@
+{
+    "name": "wetube",
+    "description": "kimsungkuk",
+    "repository": "https://github.com/sungkuk5420/wetube2",
+    "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+    "keywords": ["node", "express", "static"]
+  }
