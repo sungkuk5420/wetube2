@@ -34,3 +34,5 @@ block content
                 each comment in video.comments.reverse()
                     li
                         span=comment.text
+                        if loggedUser && comment.creator == loggedUser.id
+                            span.video__comments-delete.js-delete-comment(data-commentid=comment._id) X
