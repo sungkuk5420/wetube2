@@ -16,7 +16,7 @@ passport.use(
       clientID: process.env.GH_ID,
       clientSecret: process.env.GH_SECRET,
       callbackURL: process.env.PRODUCTION
-        ? `https://polar-sea-27980.herokuapp.com${routes.githubCallback}`
+        ? `https://cryptic-shelf-55883.herokuapp.com${routes.githubCallback}`
         : `http://localhost:4000${routes.githubCallback}`
     },
     githubLoginCallback
@@ -28,7 +28,7 @@ passport.use(
     {
       clientID: process.env.FB_ID,
       clientSecret: process.env.FB_SECRET,
-      callbackURL: `https://polar-sea-27980.herokuapp.com${
+      callbackURL: `https://cryptic-shelf-55883.herokuapp.com${
         routes.facebookCallback
       }`,
       profileFields: ["id", "displayName", "photos", "email"],
