@@ -25,7 +25,7 @@
     "flash": "^1.1.0",
     "get-blob-duration": "^1.0.0",
     "helmet": "^3.15.0",
-    "mongoose": "^5.3.12",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "multer": "^1.4.1",
     "multer-s3": "^2.9.0",
